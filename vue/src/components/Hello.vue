@@ -26,6 +26,9 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js PWA'
     }
+  },
+  mounted() {
+    console.log('Hello Component mounted');
   }
 }
 </script>
